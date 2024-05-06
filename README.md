@@ -13,10 +13,11 @@ Intraoperative hypotension (IOH) is a significant perioperative issue associated
 
 ## Repository Structure
 
-- `README.md`: This file, providing an overview and instructions for the project.
-- `DL4H_Team_172.ipynb`: Jupyter notebook containing all the analyses and model training code.
-- `requirements.txt`: A list of Python dependencies necessary to run the code.
-- `data/`: Directory containing datasets used (if publicly shareable).
+- `README.md`: Provides an overview of the project along with setup and execution instructions.
+- `DL4H_Team_172.ipynb`: The primary Jupyter notebook containing all data analyses, model training, and evaluation code.
+- `requirements.txt`: Specifies the Python packages required to replicate the analysis environment and run the notebook.
+- `model_checkpoint.h5`: Pretrained model checkpoint for the comprehensive model utilizing ABP, EEG, and ECG waveforms.
+- `abp_eeg_model_checkpoint.h5`: Pretrained model checkpoint for the simplified model using only ABP and EEG data.
 
 ## Environment Setup
 
