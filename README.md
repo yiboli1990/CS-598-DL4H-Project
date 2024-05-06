@@ -28,8 +28,10 @@ Intraoperative hypotension (IOH) is a significant perioperative issue associated
 
 2. **Download Test Data**: The test datasets are too large to host directly on GitHub and are instead available on Google Drive. You must download these files before running the notebook to ensure it functions correctly. Use the following commands to download the x_test and y_test datasets:
    ```bash
-   wget --no-check-certificate 'https://drive.google.com/uc?export=download&id=11ECqyTTMq8aGqw0g9RQFH6Fm-Mrn7TYm' -O x_test.csv
-   wget --no-check-certificate 'https://drive.google.com/uc?export=download&id=18gxmUysPZK3sp6CbRR5HIZjmYUuQYe8b' -O y_test.csv
+   curl -L 'https://drive.google.com/uc?export=download&id=11ECqyTTMq8aGqw0g9RQFH6Fm-Mrn7TYm' -o x_test.csv
+   curl -L 'https://drive.google.com/uc?export=download&id=18gxmUysPZK3sp6CbRR5HIZjmYUuQYe8b' -o y_test.csv
+   curl -L 'https://drive.google.com/uc?export=download&id=1JbT4kyRl8irsf__yDPT6XfevD67OAKnd' -o x_test_abp_eeg.csv
+   curl -L 'https://drive.google.com/uc?export=download&id=1G5iioEM8nDnxLTmpRBwodgoP4-ANoUl1' -o y_test_abp_eeg.csv
 
 3. **Install Python**: Ensure that Python 3.8 or above is installed on your machine.
 
