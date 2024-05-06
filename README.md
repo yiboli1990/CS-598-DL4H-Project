@@ -31,18 +31,26 @@ Intraoperative hypotension (IOH) is a significant perioperative issue associated
    wget --no-check-certificate 'https://drive.google.com/uc?export=download&id=11ECqyTTMq8aGqw0g9RQFH6Fm-Mrn7TYm' -O x_test.csv
    wget --no-check-certificate 'https://drive.google.com/uc?export=download&id=18gxmUysPZK3sp6CbRR5HIZjmYUuQYe8b' -O y_test.csv
 
-2. **Install Python**: Ensure that Python 3.8 or above is installed on your machine.
+3. **Install Python**: Ensure that Python 3.8 or above is installed on your machine.
 
-3. **Install Dependencies**:
+4. **Install Dependencies**:
    ```bash
    pip install -r requirements.txt
 
+## Running the Code
+1. **Open the Notebook**:
+   ```bash
+   jupyter notebook DL4H_Team_172.ipynb
 
+2. **Run All Cells**: Execute all cells in the notebook to reproduce the analysis and results.
 
+## Data
+Due to the size concerns, the physiological waveform data is saved on the Google Drive link below 
 
-
-
-
-
-
+## Contact
+* Name: Yibo Li
+* Email: yibol2@illinois.edu
+* GitHub: yiboli1990
    
+## Acknowledgements
+Special thanks to the instructors and TAs of CS-598 Deep Learning for Healthcare for their guidance and support throughout this project.
