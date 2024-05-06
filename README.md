@@ -14,7 +14,7 @@ Intraoperative hypotension (IOH) is a significant perioperative issue associated
 ## Repository Structure
 
 - `README.md`: This file, providing an overview and instructions for the project.
-- `ioh_prediction.ipynb`: Jupyter notebook containing all the analyses and model training code.
+- `DL4H_Team_172.ipynb`: Jupyter notebook containing all the analyses and model training code.
 - `requirements.txt`: A list of Python dependencies necessary to run the code.
 - `data/`: Directory containing datasets used (if publicly shareable).
 
