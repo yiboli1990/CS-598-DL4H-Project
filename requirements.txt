@@ -1,6 +1,7 @@
-numpy==1.21.2
-pandas==1.3.3
-matplotlib==3.4.3
-tensorflow==2.6.0
-scikit-learn==0.24.2
-requests==2.26.0
+vitaldb==1.22.3
+numpy==1.22.3
+pandas==2.0.3
+matplotlib==3.7.5
+tensorflow==2.13.0
+scikit-learn==1.3.2
+requests==2.31.0
