@@ -26,7 +26,7 @@ Intraoperative hypotension (IOH) is a significant perioperative issue associated
    git clone https://github.com/yiboli1990/CS-598-DL4H-Project.git
    cd CS-598-DL4H-Project
 
-2. **Download Test Data**: The test datasets are too large to host directly on GitHub and are instead available on Google Drive. You must download these files before running the notebook to ensure it functions correctly. Use the following commands to download the x_test and y_test datasets:
+2. **Download Test Data**: The test datasets are too large to host directly on GitHub and are instead available on Google Drive. You must download these files before running the notebook to ensure it functions correctly. Use the following commands to download the test datasets:
    ```bash
    curl -L 'https://drive.google.com/uc?export=download&id=11ECqyTTMq8aGqw0g9RQFH6Fm-Mrn7TYm' -o x_test.csv
    curl -L 'https://drive.google.com/uc?export=download&id=18gxmUysPZK3sp6CbRR5HIZjmYUuQYe8b' -o y_test.csv
